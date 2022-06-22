@@ -43,7 +43,7 @@ $(document).ready(function() {
 
   $('footnote_nonum').each(function(index) {
     var text  = $(this).html();
-    var fnNum = (index+1).toString();
+    var fnNum = ("").toString();
     $(this).html(fnNum.sup());
 
     var footnote   = text + '<br/>';
@@ -57,9 +57,9 @@ $(document).ready(function() {
 
 ## Outline
 
-- how I got into statistics, my career path
-- some interesting projects I've worked on
-- lessons learned???
+- My career path
+- Some interesting projects I've worked on
+- Things I've learned
 - Q&A
 
 ## Undergraduate and graduate studies in biology
@@ -110,30 +110,53 @@ $(document).ready(function() {
 ![](incidence.png){height=70%, width=70%} 
 <p>
 
-## The TODAY study
+## T2D in youth
 
 <footnote_nonum>Lawrence et al. 2021, JAMA.</footnote_nonum>
 
 <p align="center">
-![](race_ethnicity.png){height=60%, width=60%} 
+![](race_ethnicity.png){height=68%, width=68%} 
 <p>
 
-## The TODAY study
+## T2D in youth
+
+<footnote_nonum>TODAY Study Group 2021, NEJM.</footnote_nonum>
 
 <p align="center">
-![](nejm.png){height=48%, width=48%} 
+![](complications.png){height=72%, width=72%} 
+<p>
+
+## The TODAY study results
+
+<p align="center">
+![](today_results.png){height=75%, width=75%} 
 <p>
 
 ## Things I learned at GWU
 
-- How to formulate a question and design data collection instruments to obtain the data needed to answer the question
-- Programming
+- Formulating a question/hypothesis that can be answered by a statistical test
+- Designing data collection instruments 
+- Writing code as part of a team
+- Communicating statistical concepts to non-statisticians
+- Writing articles for biomedical journals
 
-## Graduate courses at GW and moving to CO
+## Graduate work at GWU and the University of Colorado
 
-## PhD program
+- While at GWU, I took graduate courses in math, programming, and statistics
+- I was accepted into the PhD program in statistics at GWU and also by the PhD program in biostatistics at CU
+- After visiting CU, I thought the faculty were more passionate about teaching, while still very active in research
+- I also thought the curriculum at CU better integrated statistics and biology
+- I continued working at GWU (remotely) while I was in graduate school at CU
+- My dissertation was on methods for analyzing longitudinal outcomes in clinical trials prior to being completely observed 
 
-## Job at CU
+## Job at the University of Colorado
+
+- When I graduated with my PhD, I was offered a faculty position at GWU, but I would have to move back to DC
+- I decided to look for a position that would allow me to stay in Colorado
+- In 2013, I started working at CU as an Assistant Professor and Associate Director of the Child Health Biostatistics Core
+- The mission of the CHBC is to collaborate with child health researchers on campus in all aspects of study design and statistical analysis
+- I was appointed as Acting Director of the CHBC in 2018 and as Director in 2020 
+- I work with many of the same investigators on the TODAY study
 
 ## Examples of interesting projects
 
