@@ -158,20 +158,114 @@ $(document).ready(function() {
 - I was appointed as Acting Director of the CHBC in 2018 and as Director in 2020 
 - I work with many of the same investigators on the TODAY study
 
-## Examples of interesting projects
+## Measuring changes in glucose rate of appearance in patients with diabetes
 
-## Clamps
+- In people with diabetes, hyperglycemia can result from inadequate insulin secretion and insulin resistance
+- The degree of insulin resistance can be assessed by the gold-standard hyperinsulinemic euglycemic clamp 
+- As insulin &#8593;, the liver and muscles stop producing glucose and adipose tissue stops releasing fatty acids
+- The amount of insulin required to stop the production is a measure of insulin sensitivity
 
-## SMART/MOST
+<p align="center">
+![](tracers.png){height=60%, width=60%} 
+<p>
 
-## Pima?
+## Measuring changes in glucose rate of appearance in patients with diabetes
 
-## Back to TODAY
+- The summary measure from the clamp is the amount of insulin required to suppress glucose production 50%
+- In people with diabetes who are taking insulin, we can't measure this accurately
 
-## How my current job is different from working at GWU/working as a collaborating biostatistician
+<p align="center">
+![](glucosera.png){height=50%, width=50%} 
+<p>
+
+## Measuring changes in glucose rate of appearance in patients with diabetes
+
+- We used mixed-effects models to examine changes in glucose Ra over time and compared this to the standard method
+- We also used insulin as the independent variable to account for within participant variability in achieved insulin levels
+
+<p align="center">
+![](ajpendo.png){height=45%, width=45%} 
+<p>
+
+<footnote_nonum>Pyle et al. 2016, AJP Endo Metab.</footnote_nonum>
+
+## SMART designs
+
+- Sequential Multiple Assignment Randomized Trials are used to design adaptive interventions individualized to patient needs
+- The hallmark is that there are multiple intervention assignments within the same patient
+- At each of K &#8805 1; decision points, a patient is randomized to the set of treatment options that are feasible given history of treatments and response
+- Primary tailoring variable is used to determine whether changes are needed
+
+## SMART designs
+
+- Weight loss management study (Pfammatter et al. 2019, Contemp Clin Trials)
+
+<p align="center">
+![](pfammatter.png){height=90%, width=90%} 
+<p>
+
+## SMART designs
+
+- SMARTs utilize a factorial design in a sequential setting to efficiently test the main effects of the treatments
+- Can also test how the interventions interact
+- Statistical challenges 
+    - Power calculations
+    - Handling missing data and loss to follow up
+    - Interim monitoring
+    - Use of Q-learning algorithm to build an optimal sequence of interventions
+
+## TODAY study proteomics and metabolomics
+
+- With TODAY study investigators, I have a grant to identify protein and metabolite signatures of complications of youth-onset T2D using traditional statistical methods as well as machine learning methods
+    - Linear models with moderated t-statistics
+    - Sparse partial least-squares discriminant analysis (sPLS-DA)
+    - Gene Set Enrichment Analysis
+    - Boosted Cox regression
+- We are also collaborating with an applied mathematician, Anita Layton, at the University of Waterloo to create deep learning models
+
+## TODAY study proteomics and metabolomics
+
+<p align="center">
+![](TODAY_omics.png){height=110%, width=110%} 
+<p>
+
+## Phenotypes of diabetic kidney disease
+
+- Because of my collaborations with the TODAY study and other national study groups, I have access to rich longitudinal datasets related to diabetes and its complications
+- This includes data from a longitudinal study of Pima Indian individuals that started in the 1960s
+- We plan to harmonize the data from several of these studies, including proteomics and metabolomics, and then to use unsupervised cluster analysis to identify phenotypes of DKD
+- Once clusters are identified, we can validate the phenotypes against kidney biopsy data in a subset of participants
+
+## How is my CU job different from GWU?
+
+- GWU
+    - Large studies with large budgets and teams
+    - Extremely careful data collection and cleaning
+    - Long lead time for publications
+    - Deep focus on 1 or 2 studies
+- CU
+    - Lots (!) of projects, sometimes un/underfunded
+    - Smaller budgets, smaller teams, less time for data cleaning
+    - Rapid time to publication
+    - Smaller studies, but often participants are deeply phenotyped using gold-standard methods
 
 ## What do I do on a daily basis?
 
-## Working as a manager
+- Consultation and project meetings (Zoom!)
+- Writing grants
+- Writing code to do data cleaning and analysis
+- Collaborating on manuscripts and abstracts
+- Education (graduate students, medical students, residents, fellows, etc.)
+- Reading about statistical methods and keeping up to date
+- Managing other statisticians in the core
+- Administrative tasks (budgets, talking to investigators about new projects, University and hospital committees, etc.)
 
-## Lessons learned????
+## Things I've learned
+
+- Keep learning new methods and skills, as well as subject matter content
+- Sharpen your coding skills
+- Writing and communication are important, no matter what area of statistics you work in
+- Work with people you like 
+- There are lots of different types of statistics jobs, even within academia
+
+## Q&A
